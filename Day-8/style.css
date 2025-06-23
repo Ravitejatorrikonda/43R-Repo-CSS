@@ -1,0 +1,48 @@
+/* body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.container{
+    width: 800px;
+    height: 500px;
+    border: 2px solid;
+    /* background-color: brown; */
+    /* transition-property:background-color padding ; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 4s; */
+    /* transition-timing-function: ease; */
+    /* transition: all 2s ease; */
+}
+/* .container:hover{
+  background-color: aqua;
+  padding: 10px;  
+} */
+ /* p{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: all 2s ease;
+ }
+ .container:hover>p{
+    opacity: 1;
+ } */
+  img{
+    width: 200px;
+    display: none;
+  }
+
+  .dog:hover~ .main .img-1{
+    display: block;
+  }
+  .pig:hover ~ .main .img-2{
+    display: block;
+  }
+  .python:hover ~.main .img-3{
+    display: block;
+  }

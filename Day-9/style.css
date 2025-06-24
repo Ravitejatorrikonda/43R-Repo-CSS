@@ -1,0 +1,33 @@
+/* a:link{
+    color: aqua;
+}
+a:visited{
+    color: #7fff00;
+}
+a:hover{
+    color: chocolate;
+}
+a:active{
+    color:deeppink;
+} */
+.main{
+    /* border: 2px solid red; */
+    background-color: dodgerblue;
+    width: fit-content;
+    display: none;
+    
+}
+.item{
+    color: wheat;
+    
+}
+.item:hover{
+    color: lightpink;
+}
+#check:checked~.main{
+    display: block;
+}
+#check{
+    display: none;
+}
+

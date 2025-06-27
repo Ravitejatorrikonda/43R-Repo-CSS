@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    transition: all 2s ease;
+    animation-name: a;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease; */
+    /* animation-direction: reverse; */
+    /* animation-fill-mode:forwards; */
+
+}
+
+/* .container:hover{
+    transform: skew(60deg, 60deg);
+} */
+
+@keyframes a {
+  0%{
+transform: translate(0px) rotate(360deg);
+background-color: lightcoral;
+  }
+  25%{
+  transform: translate(500px);
+  }
+  50%{
+  transform: translate(500px, 500px) scaleX(1.4);
+  /* transform: scaleX(1.4); */
+  }
+  75%{
+     transform: translate(0px, 500px) rotate(360deg);
+  }
+  100%{
+    background-color: blue;
+transform: translate(0px);
+  }
+}
